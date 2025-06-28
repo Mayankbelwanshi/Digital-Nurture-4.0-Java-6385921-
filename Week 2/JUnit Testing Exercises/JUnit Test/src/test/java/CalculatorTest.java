@@ -9,13 +9,13 @@ public class CalculatorTest {
     private Calculator cal;
 
     @Before
-    public void start() {
+    public void setUp() {
         cal = new Calculator();
         System.out.println("Testing Started.");
     }
 
     @After
-    public void end() {
+    public void tearDown() {
         cal = null;
         System.out.println("Testing completed.");
     }
