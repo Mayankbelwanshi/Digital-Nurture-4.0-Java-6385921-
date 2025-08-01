@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 20px;
+}
+
+.office-card {
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 10px;
+}
+
+.office-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.rent {
+  font-size: 18px;
+  font-weight: bold;
+}
